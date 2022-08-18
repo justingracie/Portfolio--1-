@@ -8,12 +8,14 @@ import { Home } from './Components/Home';
 import { Contact } from './Components/Contact';
 import { Skills } from './Components/Skills';
 import { Services } from './Components/Services';
+import { NavBar } from './Components/Nav/Nav';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+  <Router>
+    <NavBar />
       <Routes>
         <Route path='/' element={< Home /> }/>
         <Route path='/contact' element={< Contact /> }/>
