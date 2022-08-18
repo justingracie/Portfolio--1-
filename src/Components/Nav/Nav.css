@@ -1,0 +1,9 @@
+.NavContainer{
+    background-color: rgb(41, 208, 152);
+    text-align: center;
+}
+
+.NavItem{
+    margin-right: 20px;
+    margin-left: 20px;
+}
