@@ -10,6 +10,7 @@ import { Skills } from './Components/Skills';
 import { Services } from './Components/Services';
 import { NavBar } from './Components/Nav/Nav';
 import { Projects } from './Components/Projects';
+import './App.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

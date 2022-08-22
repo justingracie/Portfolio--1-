@@ -16,11 +16,12 @@
     align-items: center;
     box-shadow: 3px 3px 3px 3px gray;
     margin-top: 40px;
+    background-color: #E7E8D1;
 }
 .form-box h5{
     font-size: 35px;
     text-align: center;
-    color: #503526;
+    color:black;
 }
 label{
     display: block;
@@ -49,7 +50,7 @@ label{
 
 .sendBtn{
     box-shadow: 3px 3px rgb(29, 28, 30);
-    background-color: rgb(99, 189, 160);
+    background-color: #B85042;
     border: solid 1px black;
 }
 

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import '../Form.css'
+import ReCAPTCHA from "react-google-recaptcha";
 
 export const ContactUs = () => {
     const form = useRef();
@@ -15,8 +16,12 @@ export const ContactUs = () => {
         }, (error) => {
             console.log(error.text);
         });
-
+    
+        
     };
+    const onChange= (value) => {
+        console.log('Captcha value:', value)
+   }
 
     return(
         
@@ -32,9 +37,12 @@ export const ContactUs = () => {
                         <label>Message:</label>
                             <textarea name="message" placeholder="MESSAGE"/>
                             <input type="submit" value="Send" className="sendBtn"/>
-                    </div>
-                </form>
-            </div>
+                            </div>
+                            </form>
+                            </div>
+                            <ReCAPTCHA
+                                sitekey="6LejhZwhAAAAAFDpFYGvj_ACX5Z5pHamJG5wHFds"
+                                onChange={onChange}/>
         </div>
     );
 };   
