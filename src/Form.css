@@ -6,8 +6,8 @@
 }
 .form-box{
     width: 50%;
-    height: 50vh;
-    border: solid #F55A00;
+    height: 57vh;
+    border: solid #503526;
     border-radius: 5px;
     margin: 0vw;
     padding: 5vw;
@@ -16,14 +16,11 @@
     align-items: center;
     box-shadow: 3px 3px 3px 3px gray;
     margin-top: 40px;
- 
 }
 .form-box h5{
     font-size: 35px;
     text-align: center;
-    color: #F55A00;
-    margin: 0 0 .5vh 0;
-
+    color: #503526;
 }
 label{
     display: block;
@@ -31,7 +28,7 @@ label{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-
+    margin-top: 10px;
 }
 
 .form-box input, textarea{
@@ -48,21 +45,21 @@ label{
     display: grid;
     columns: 1;
     justify-content: center;
-
 }
+
 .sendBtn{
     box-shadow: 3px 3px rgb(29, 28, 30);
-    background-color: rgb(184, 124, 240);
-    color: antiquewhite;
+    background-color: rgb(99, 189, 160);
     border: solid 1px black;
 }
+
 .sendBtn:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
+
 .formContainer{
     margin: auto;
     width: 100%;
     margin-left: 25%;
-
 }
