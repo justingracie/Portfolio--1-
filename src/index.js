@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import { About } from './Components/About';
 import { Home } from './Components/Home';
-import { Contact } from './Components/Contact';
+import { ContactUs } from './Components/Contact';
 import { Skills } from './Components/Skills';
 import { Services } from './Components/Services';
 import { NavBar } from './Components/Nav/Nav';
@@ -19,7 +19,7 @@ root.render(
     <NavBar />
       <Routes>
         <Route path='/' element={< Home /> }/>
-        <Route path='/contact' element={< Contact /> }/>
+        <Route path='/contact' element={< ContactUs /> }/>
         <Route path='/skills' element={< Skills /> }/>
         <Route path='/services' element={< Services /> }/>
         <Route path='/projects' element={< Projects /> }/>
