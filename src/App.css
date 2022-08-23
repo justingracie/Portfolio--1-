@@ -2,5 +2,37 @@ body{
   background-color:#1F2833;
   text-align: center;
   color: #66FCF1;
+  font-family: monospace;
   
+}
+.skillContainer{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+li{
+  list-style: none;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.frontSkill{
+  margin-right: 25px;
+  background-color: #0B0C10;
+  padding: 15px;
+  box-shadow: 3px 3px 3px;
+}
+.backSkill{
+  margin-left: 25px;
+  background-color: #0B0C10;
+  padding: 15px;
+  box-shadow: 3px 3px 3px;
+}
+.title{
+  font-size: 70px;
+  padding-top: 50px;
+}
+.titleContainer{
+  width: 100vw;
 }
