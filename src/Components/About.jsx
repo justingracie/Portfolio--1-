@@ -1,7 +1,8 @@
 export const About = () =>{
     return(
         <>
-            <div className="aboutContainer">
+        <div className="aboutContainer">
+        <h1 className="title">About</h1>
                 <img className="image" src="./Images/Cartoon_JG.png" alt="cartoon_me"></img>
                 <div>
                 
