@@ -2,7 +2,16 @@ export const Skills = () => {
     return(
         <>
         <div className="titleContainer">
-            <h1 className="title">Skills!</h1>
+            <h1 className="title">Toolbox</h1>
+        </div>
+        <div className="toolbox">
+            <p> _________________________</p>
+            <p>|________________________|</p>
+            <p>|__________%-%___________|</p>
+            <p>|########################|</p>
+            <p>|________________________|</p>
+            <p>|########################|</p>
+            <p>|________________________|</p>
         </div>
         <div className="skillContainer">
                 <div className="frontSkill">

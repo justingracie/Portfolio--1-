@@ -6,7 +6,7 @@ body{
   
 }
 .skillContainer{
-  height: 100vh;
+  height: 50vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -35,4 +35,8 @@ li{
 }
 .titleContainer{
   width: 100vw;
+}
+.toolbox{
+  font-size: 40px;
+  font-weight: bolder;
 }
