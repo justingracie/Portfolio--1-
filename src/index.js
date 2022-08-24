@@ -10,6 +10,7 @@ import { Skills } from './Components/Skills';
 import { Services } from './Components/Services';
 import { NavBar } from './Components/Nav/Nav';
 import { Projects } from './Components/Projects';
+import { Test } from './Components/Test';
 import './App.css'
 
 
@@ -25,6 +26,7 @@ root.render(
         <Route path='/services' element={< Services /> }/>
         <Route path='/projects' element={< Projects /> }/>
         <Route path='/about' element={< About />}/>
+        <Route path='/test' element={ Test}/>
       </Routes>
     </Router>
   </React.StrictMode>

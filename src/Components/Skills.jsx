@@ -1,4 +1,7 @@
 export const Skills = () => {
+
+   
+    
     return(
         <>
         <div className="titleContainer">
@@ -13,6 +16,7 @@ export const Skills = () => {
             <p>|########################|</p>
             <p>|________________________|</p>
         </div>
+   
         <div className="skillContainer">
                 <div className="frontSkill">
                     <h1>Front-end:</h1>
