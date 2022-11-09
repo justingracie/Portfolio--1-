@@ -1,7 +1,4 @@
 export const Skills = () => {
-
-   
-    
     return(
         <>
         <div className="titleContainer">
@@ -16,7 +13,6 @@ export const Skills = () => {
             <p>|########################|</p>
             <p>|________________________|</p>
         </div>
-   
         <div className="skillContainer">
                 <div className="frontSkill">
                     <h1>Front-end:</h1>
@@ -37,7 +33,6 @@ export const Skills = () => {
                         <li>Django</li>
                         <li>Python</li>
                     </ul>
-                
                 </div>
                 <div className="backSkill">
                     <h1>Additional:</h1>
@@ -48,10 +43,8 @@ export const Skills = () => {
                         <li>VSCode</li>
                         <li>Heroku</li>
                     </ul>
-                
                 </div>
-            </div>    
-
+            </div> 
         </>
     )
 }

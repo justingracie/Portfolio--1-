@@ -10,7 +10,6 @@ import { Skills } from './Components/Skills';
 import { Services } from './Components/Services';
 import { NavBar } from './Components/Nav/Nav';
 import { Projects } from './Components/Projects';
-import { Test } from './Components/Test';
 import './App.css'
 
 
@@ -20,13 +19,12 @@ root.render(
   <Router>
     <NavBar />
       <Routes>
-        <Route path='/' element={< Home /> }/>
-        <Route path='/contact' element={< ContactUs /> }/>
-        <Route path='/skills' element={< Skills /> }/>
-        <Route path='/services' element={< Services /> }/>
-        <Route path='/projects' element={< Projects /> }/>
-        <Route path='/about' element={< About />}/>
-        <Route path='/test' element={ Test}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/contact' element={<ContactUs/>}/>
+        <Route path='/skills' element={<Skills/>}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/about' element={<About/>}/>
       </Routes>
     </Router>
   </React.StrictMode>

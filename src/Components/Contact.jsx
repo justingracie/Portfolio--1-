@@ -3,12 +3,9 @@ import emailjs from '@emailjs/browser';
 import '../Form.css'
 import ReCAPTCHA from "react-google-recaptcha";
 import Swal from 'sweetalert2'
-
+//This is the component that handles the email form. 
 export const ContactUs = () => {
     const form = useRef();
-
-
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_0z0ot1h', 'template_22w0o6p', form.current, 'ldtG6P6Oen8IeNB_b')
@@ -21,12 +18,11 @@ export const ContactUs = () => {
                 icon: 'success',
                 confirmButtonText: 'confirm'
             })
-
         }, (error) => {
             console.log(error.text);
+            alert('OOPS! Your form did not submit correctly.')
         });
-    
-        
+            
     };
     const onChange= (value) => {
         console.log('Captcha value:', value)
@@ -34,12 +30,7 @@ export const ContactUs = () => {
    const handleSubmit = () =>{
     form.current.reset();
    }
-
-
-    return(
-        
-
-        
+    return(    
             <div className="formContainer">
                 <div className="form-box">
                     <h5>Contact Me</h5>
@@ -55,12 +46,10 @@ export const ContactUs = () => {
                                 </div>
                                 </form>
                                 </div>
-                             
                                 <ReCAPTCHA
                                     sitekey="6LejhZwhAAAAAFDpFYGvj_ACX5Z5pHamJG5wHFds"
                                     onChange={onChange}
                                     className="recap"/>
             </div>
-
     );
 };   
